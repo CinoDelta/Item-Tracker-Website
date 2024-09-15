@@ -3,6 +3,46 @@ body {
     text-align: center;
 }
 
+.Title {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(246, 222, 211);
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 70px;
+}
+
+.SubTitle {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(246, 222, 211);
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.Button {
+    background-color: antiquewhite;
+
+}
+
+.Info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(246, 222, 211);
+    border-radius: 5px;
+}
+
+.rainbow {
+    background: linear-gradient(90deg, rgba(255,4,4,1) 0%, rgba(255,169,0,1) 15%, rgba(249,255,1,1) 30%, rgba(60,255,0,1) 45%, rgba(0,255,248,1) 62%, rgba(146,0,255,1) 81%, rgba(215,0,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-size: 25px;
+    font-style: italic;
+    -webkit-text-stroke-color: aliceblue;
+}
+
 .bookTable {
     border-collapse: collapse;
     width: "200"
