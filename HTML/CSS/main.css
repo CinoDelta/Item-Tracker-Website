@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(173, 59, 21);
+    text-align: center;
+}
+
+.bookTable {
+    border-collapse: collapse;
+    width: "200"
+}
+
+th.bookTable {
+    color: rgb(108, 39, 4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
