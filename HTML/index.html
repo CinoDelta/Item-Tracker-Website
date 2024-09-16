@@ -18,11 +18,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Items, tracking, Helpful">
 
-    <h1 class="Title">
-        <i>Item~Track</i> 
-    </h1>
+    <div class="banner">
+        
+    </div>
+    
+    <div class="relative">
+        
+        <h1 id="Title">
+            <i>
+                Item ✰ Tracker</i> 
 
-    <a href = "mailto:opara88daniel@gmail.com" target="_self" title="google">
+              <!--  <img id="TitleUnderHead" src="https://zenkit.com/wp-content/uploads/2018/04/header.en91.jpg" alt="Checklist image"> --> 
+        </h1>
+
+       
+    </div>
+
+ 
+   
+
+    <a class="infoLink"  href = "mailto:opara88daniel@gmail.com" target="_self" title="google">
         Mail Me!
     </a>
 
@@ -42,22 +57,53 @@
 
     <h2 class="SubTitle">Your items</h2>
 
+
     <table class = "bookTable">
         <!-- Books -->
 
         <tr bgcolor="grey">
-            <th class = "bookTable" width="100">The Catcher in the Rye</th>
-            <th class = "bookTable" width="100">Apollo</th>
+            <th class = "bookTable">The Catcher in the Rye</th>
+            <th class = "bookTable">Apollo</th>
         </tr>
 
          <!-- Time Read -->
 
         <tr bgcolor="lightgrey">
-            <td width="100">9/9/24</td>
-            <td width="100">9/15/24</td>
+            <td class = "bookTable">9/9/24</td>
+            <td class = "bookTable">9/15/24</td>
         </tr>
 
     </table>
+
+    <br>
+
+    <form action="action_page.php" method="get">
+        <label for="bookName"> Favorite Book: </label>
+        <input type="text" id="bookName" name="bookName" placeholder="Write the book name here!">
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" maxlength="24" minlength="12">
+
+        <label for="itemDate">Item Date:</label>
+        <input type="date" id="itemDate" name="Item Date">
+
+        <br>
+
+        <span class="Button" style="display: inline-flex;">
+            <div style="margin-right: 30px;">
+                <input type="reset">
+            </div>
+    
+    
+            <div>
+                <input type="submit">
+            </div>
+        </span>
+
+       
+    </form>
+   
+    
     
 </body>
 

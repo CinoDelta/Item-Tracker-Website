@@ -1,15 +1,52 @@
 body {
     background-color: rgb(173, 59, 21);
     text-align: center;
+    margin: 5%;
+    border: dashed black 3px;
 }
 
-.Title {
+html {background-color: beige;}
+
+#Title {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(246, 222, 211);
     border-width: 5px;
     border-radius: 10px;
     border-color: black;
+    color:chocolate;
+    -webkit-text-stroke: rgb(56, 25, 0);
+    -webkit-text-stroke-width: 4px;
     font-size: 70px;
+    z-index: 2;
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+#TitleUnderHead {
+    display: inline-block;
+    margin-bottom: 0px;
+    z-index: 0;
+    position: absolute;
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: rgba(0,0,0, 0.5);
+    opacity: .5;
 }
 
 .SubTitle {
@@ -31,6 +68,26 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(246, 222, 211);
     border-radius: 5px;
+    color:rgb(92, 52, 0)
+}
+
+.infoLink {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(246, 222, 211);
+    border-radius: 5px;
+    color:rgb(92, 52, 0);
+    border: 5px solid rgb(255, 175, 38);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.infoLink:link{
+    color: rgb(87, 23, 0);
+}
+
+.infoLink:hover{
+    color: chocolate;
 }
 
 .rainbow {
@@ -45,11 +102,27 @@ body {
 
 .bookTable {
     border-collapse: collapse;
-    width: "200"
-}
+    width: "600";
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dashed black;
+    background-color: antiquewhite;
+}   
 
 th.bookTable {
+    width: "300";
     color: rgb(108, 39, 4);
     font-family: 'Courier New', Courier, monospace;
 }
 
+td.bookTable {
+    width: "300";
+    color: rgb(108, 39, 4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Button {
+    background-color: antiquewhite;
+    color:aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
